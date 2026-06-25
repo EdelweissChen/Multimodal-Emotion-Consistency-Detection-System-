@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+venv/
+*.log
+
+# Java SpringBoot
+target/
+*.jar
+.idea/
+*.iml
+
+# React Frontend
+node_modules/
+npm-debug.log
+build/
+dist/
+
+# 大模型、数据集（禁止上传GitHub）
+models/
+data/*.zip
+data/*.csv
+*.ckpt
+*.h5
+*.bin
+
+# Docker、系统缓存
+.docker/
+*.swp
+.DS_Store
+
+# 环境配置
+.env
+base/
